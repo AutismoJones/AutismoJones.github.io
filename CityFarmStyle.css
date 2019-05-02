@@ -1,0 +1,255 @@
+html {
+	overflow-y: scroll;
+}
+
+/* sets default text properties in body*/
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #919191;
+	background-color: #1B1D23;
+}
+
+/* header text colour and header colour*/
+.row1, .row1 a {
+	color: #E0E5E9;
+	background-color: #21252B;
+}
+
+/* main content text colour and defaultly white background */
+.row2 {
+	color: #21252B;
+	background-color: #E0E5E9;
+}
+
+.clear:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+}
+.clear {
+	display: block;
+	clear: both;
+}
+html[xmlns] .clear {
+	display: block;
+}
+* html .clear {
+	height: 1%;
+}
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+/*----------------Positioning classes--*/
+.imgl, .imgr {
+	padding: 4px;
+	border: 1px solid #D6D6D6;
+	text-align: center;
+}
+.imgl {
+	float: left;
+	margin: 0 15px 15px 0;
+}
+.imgr {
+	float: right;
+	margin: 0 0 15px 15px;
+	
+}
+.lastbox {
+	margin-right: 0;
+}
+.fl_right {
+	float: right;
+}
+}
+.fl_left {
+	float: left;
+}
+/*----------------Wrapper--*/
+div.wrapper {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+/*----------------Building blocks--*/
+table {
+
+}
+th, td {
+  padding: 4px;
+  text-align: center ;
+  font-size: 18
+
+}
+th {
+  background-color: #21252b;
+  color: #e0e5e9;
+}
+.table {
+background-color: #21252b;
+color: #e0e5e9;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h1, h2, {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: normal;
+	text-transform: uppercase;
+}
+h3, h5 {
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: normal;
+	text-transform: uppercase;
+}
+h4 {
+	margin: 0px 0 0 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	line-height: normal;
+	text-transform: uppercase;
+}
+.submit {
+	margin: 0px 10px 0px 60px;
+}
+.sperg{
+    float: left;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+/*----------------container Master--*/
+#container, #header, #footer {
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*----------------general containers--*/
+#container #half {
+	float: left;
+	width: 420px;
+	line-height: 1.6em;
+}
+#container #twothirds {
+	float: left;
+	width: 630px;
+	line-height: 1.6em;
+}
+#container #full {
+	float: left;
+	width: 950px;
+	line-height: 1.6em;
+}
+#container #fullB {
+	float: left;
+	width: 950px;
+	line-height: 1.6em;
+	margin: 60px 0px 60px 0px;
+}
+/*----------------city farm logo containers--*/
+#header {
+	padding: 20px 0;
+}
+#header #logo {
+	float: left;
+	margin: 0 0 20px 0;
+}
+#header #logo h1, #header #logo h2 {
+	font-weight: normal;
+	text-transform: none;
+  margin:0;
+}
+#header #logo h1 {
+	font-size: 36px;
+}
+#header #logo h2 {
+	font-size: 13px;
+}
+
+/*----------------Header buttons--*/
+#header nav {
+	display: block;
+	float: right;
+	margin: 10px 0 0 0;
+	padding: 20px 0;
+	color: #1B1D23;
+	background-color: #1B1D23;
+}
+
+/*-outside padding-*/
+#header nav ul {
+	padding: 0 20px;
+}
+
+#header nav li {
+	display: inline;
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+#header nav li.last {
+	margin-right: 0;
+}
+
+/* changes page font colour to orange when hovering*/
+#header nav li a:hover {
+	color: #D17C44;
+	background-color: #1B1D23;
+}
+
+/*----------------Main Content container--*/
+#container {
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+#container .last {
+	margin: 0;
+}
+.Main {
+  line-height: 1.6em;
+	font-size: 18px;
+}
+.MainR {
+  line-height: 1.6em;
+	font-size: 18px;
+  text-align: right;
+}
+
+
+/*-banner gif container-*/
+#container #gif {
+	margin-bottom: 50px;
+}
+
+/*-Footer-*/
+#footer {
+	padding: 20px 0;
+}
+#footer p {
+	margin: 0;
+	padding: 0;
+}
