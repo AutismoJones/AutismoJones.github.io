@@ -2,12 +2,6 @@ html {
 	overflow-y: scroll;
 }
 
-.line {
-width: 112px;
-height: 47px;
-border-bottom: 1px solid white;
-position: absolute;
-}
 /* sets default text properties in body*/
 body {
 	margin: 0;
