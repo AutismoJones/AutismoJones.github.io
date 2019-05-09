@@ -52,7 +52,7 @@ a {
 #CVF_LOGO {
 width: 70%;
 height: auto;
-float: middle;
+margin: auto;
 }
 
 .imgl, .imgr {
