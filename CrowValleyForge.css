@@ -50,8 +50,9 @@ a {
 /*----------------Positioning classes--*/
 
 #CVF_LOGO {
-width: 50%;
-height:auto;
+width: 70%;
+height: auto;
+float: middle;
 }
 
 .imgl, .imgr {
