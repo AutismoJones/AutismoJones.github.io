@@ -48,6 +48,11 @@ a {
 }
 
 /*----------------Positioning classes--*/
+
+#CVF_LOGO {
+
+}
+
 .imgl, .imgr {
 	padding: 4px;
 	border: 1px solid #D6D6D6;
