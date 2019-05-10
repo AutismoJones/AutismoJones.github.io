@@ -49,7 +49,8 @@ a {
 
 /*----------------Positioning classes--*/
 
-#CVF_LOGO {
+#CVF_TEXT {
+float: left;
 width: 70%;
 height: auto;
 margin-top: 0px;
