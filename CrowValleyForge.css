@@ -52,8 +52,10 @@ a {
 #CVF_LOGO {
 width: 70%;
 height: auto;
-margin: auto;
-}
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;}
 
 .imgl, .imgr {
 	padding: 4px;
