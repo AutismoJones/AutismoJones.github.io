@@ -51,12 +51,12 @@ a {
 
 #CVF_TEXT {
 float: left;
-width: 70%;
+width: 41%;
 height: auto;
 margin-top: 0px;
 margin-bottom: 0px;
-margin-right: 0px;
-margin-left: 0px;}
+margin-right: 20px;
+margin-left: 20px;}
 
 .imgl, .imgr {
 	padding: 4px;
