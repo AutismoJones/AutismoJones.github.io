@@ -143,6 +143,7 @@ h4 {
 	font-style: normal;
 	line-height: normal;
 	text-transform: uppercase;
+	text-align: center;
 }
 .submit {
 	margin: 0px 10px 0px 60px;
@@ -244,6 +245,12 @@ h4 {
 }
 #container .last {
 	margin: 0;
+}
+.soon {
+	line-height: 1.6em;
+	font-size: 28px;
+	text-align: middle;
+	text-align: center;
 }
 .Main {
   line-height: 1.6em;
