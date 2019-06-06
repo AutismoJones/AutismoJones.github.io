@@ -36,10 +36,8 @@ body {
 	display: block;
 	clear: both;
 }
-.colorclear {
+.colorbackground {
 	color: #919191;
-	display: block;
-	clear: both;
 }
 html[xmlns] .clear {
 	display: block;
